@@ -13,6 +13,7 @@
         "@popperjs/core": "^2.4.4",
         "bcryptjs": "^2.4.3",
         "body-parser": "^1.19.0",
+        "bootstrap-icons": "^1.10.2",
         "connect-flash": "^0.1.1",
         "consolidate": "^0.15.1",
         "cookie-parser": "^1.4.5",
