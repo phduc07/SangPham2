@@ -37,7 +37,7 @@ router.post('/register', (req, res) => {
         // kiểm tra đã điền đủ thông tin đang kí chưa
     if (!customCheckRegister) {
         req.session.errors = { msg: 'Please click on (I agree with the Privacy Policy)' };
-    } else if (!displayname || !email || !password || !password2 || !address || !birthday) {
+    } else if (!displayname || !email || !password || !password2 || !address) {
         req.session.errors = { msg: 'Please enter all fields' };
     }
     // kiểm tra xác nhận password
